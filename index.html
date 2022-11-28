@@ -1,49 +1,221 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html lang="ko">
 <head>
 
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=11; IE=10; IE=9; IE=8; IE=7; IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="author" content="Myungkun">
+	<title>Myungkun's Portfolio</title>
+	
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	
+	<link rel="stylesheet" href="assets/css/main.css" />
+	
+	<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 
-    <title>Myungkun's Portfolio</title>
-
-    <link rel="stylesheet" href="css/common.css">
-    <link rel="stylesheet" href="css/main.css">
-    
-    <script src="js/jquery.js"></script>
-    <script src="js/jquery-migrate-1.4.1.min.js"></script>
-    <script src="js/jquery.cookie.js"></script>
-    <script src="js/jquery.bxslider.js"></script>
-    
 </head>
-<body>
+<body class="is-preload">
+
     <!-- HEADER START -->
-    <div id="header_wrap">
-        <header class="header_inner">
+	<header id="header">
+		<h1><a href="index.html">Myungkun Namgung</a></h1>
+		<nav>
+			<ul id="menu">
+				<li><a class="scrolly" href="#about">ABOUT</a></li>
+				<li><a class="scrolly" href="#skill">SKILL</a></li>
+				<li><a class="scrolly" href="#project">PROJECT</a></li>
+				<li><a class="scrolly"  href="#contact">CONTACT</a></li>
+			</ul>
+			<span class="navBtn icon solid style major fa-bars"></span>
+		</nav>
+		<a class="icon regular major fa-circle-up btn_gotop"></a>
+	</header>
+	<!-- HEADER END -->
+
+	<!-- INTRO START -->
+	<section id="intro">
+		<div class="inner">
             <h1>
-                <a href="#">
-
-                </a>
+                안녕하세요. <br />
+				웹 개발자 <strong>남궁명건</strong> 입니다.<br />
             </h1>
-            <nav>
-    
-            </nav>
-        </header>
-    </div>
-    <!-- HEADER END -->
-
-    <!-- CONTAINER START -->
-    <section>
-        <h2></h2>
+            <p>
+                저의 첫 포트폴리오 페이지에 오신 것을 환영합니다.
+            </p>
+            <ul class="actions special">
+                <li><a href="#about" class="button scrolly">다음</a></li>
+            </ul>
+        </div>
     </section>
-    <!-- CONTAINER END -->
+	<!-- INTRO END -->
+
+	<!-- CONTAINER START -->
+	<!-- about -->
+	<section id="about" class="main style1">
+		<div class="container">
+            <div class="row gtr-150">
+                <div class="col-6 col-12-medium">
+                    <intro class="major">
+                        <h2>
+                            ABOUT
+                        </h2>
+                    </intro>
+                    <p>
+						<br>
+                        과유불급(過猶不及) : 지나친 것은 미치지 못한 것과 같다. 
+						<br><br>
+						저는 매사 과유불급을 명심하며 노력하는 웹 개발자입니다.
+                    </p>
+                </div>
+                <div class="col-6 col-12-medium imp-medium">
+                    <span class="image profile"><img src="images/profile.jpg" alt="" /></span>
+                </div>
+            </div>
+        </div>
+	</section>
+
+	<!-- Two -->
+	<section id="skill" class="main style2">
+		<div class="container">
+			<div class="row gtr-150">
+				<div class="col-6 col-12-medium">
+					<ul class="major-icons">
+						<li><span class="icon brands style5 major fa-java"></span></li>
+						<li><span class="icon brands style1 major fa-html5"></span></li>
+						<li><span class="icon brands style2 major fa-css3-alt"></span></li>
+						<li><span class="icon brands style3 major fa-square-js"></span></li>
+						<li><span class="icon brands style4 major fa-git"></span></li>
+						<li><span class="icon brands style6 major fa-bootstrap"></span></li>
+					</ul>
+				</div>
+				<div class="col-6 col-12-medium">
+					<intro class="major">
+                        <h2>
+                            SKILL
+                        </h2>
+                    </intro>
+					<p>
+                        <br>Java
+                    </p>
+                    <p>
+						HTML5 <br/> 
+                    </p>
+                    <p>
+                        CSS3
+                    </p>
+                    <p>
+                        JavaScript
+                    </p>
+					<p>
+                        github
+                    </p>
+					<p>
+                        Bootstrap
+                    </p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Three -->
+	<section id="project" class="main style1 special">
+		<div class="container">
+			<intro class="major">
+				<h2>
+					PROJECT
+				</h2>
+			</intro>
+			<p>
+				<br>
+				현재는 학습한 프로젝트 위주입니다.
+			</p>
+			<div class="row gtr-150">
+				<div class="col-4 col-12-medium">
+					<span class="image fit"><img src="images/thisisjavapng.png" alt="" /></span>
+					<h3>
+						ThisIsJava
+					</h3>
+					<p>
+						JAVA 학습 프로젝트
+					</p>
+					<ul class="actions special">
+						<li>
+							<a href="https://github.com/Mirabilia963/ThisIsJava-2022-" class="button">More</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-4 col-12-medium">
+					<span class="image fit"><img src="images/KidsGao.png" alt="" /></span>
+					<h3>
+						KidsGao
+					</h3>
+					<p>
+						HTML, CSS3 학습 프로젝트
+					</p>
+					<ul class="actions special">
+						<li>
+							<a href="#" class="button">More</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-4 col-12-medium">
+					<span class="image fit"><img src="images/easy.png" alt="" /></span>
+					<h3>
+						이지스퍼블리싱
+					</h3>
+					<p>
+						반응형 웹 UI 제작 학습 프로젝트
+					</p>
+					<ul class="actions special">
+						<li>
+							<a href="https://github.com/Mirabilia963/Do-it-Javascript-jQuery" class="button">More</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Four -->
+	<section id="contact" class="main style2 special">
+		<div class="container">
+			<intro class="major">
+				<h2>
+					CONTACT
+				</h2>
+			</intro>
+			<p>
+				e-mail : meongkun5@gmail.com
+			</p>
+		</div>
+	</section>
+	<!-- CONTAINER END -->
 
     <!-- FOOTER START -->
-    <footer>
+	<section id="footer">
+		<ul class="icons">
+			<li>
+				<a href="https://github.com/Mirabilia963" class="icon brands alt fa-github">
+				<span class="label">GitHub</span></a>
+			</li>
+		</ul>
+		<ul class="copyright">
+			<li>
+				&copy; Myungkun Namgung
+			</li>
+			<li>
+				You can see this <a href="https://github.com/Mirabilia963/Portfolio_01">code</a>
+			</li>
+		</ul>
+	</section>
+	<!-- FOOTER END -->
 
-    </footer>
-    <!-- FOOTER END -->
+	<!-- Scripts -->
+		<!-- 제이쿼리 버전 최신화 -->
+		<script src="assets/js/jquery.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+		<script src="https://kit.fontawesome.com/0635ff571a.js" crossorigin="anonymous"></script>
 </body>
 </html>
