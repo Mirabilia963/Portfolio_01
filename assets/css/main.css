@@ -3032,15 +3032,20 @@ input, select, textarea {
 			
 			.navBtn {
 				top: 0.5em;
-				right: 1em;
+				right: 2em;
 				font-size: 0.5em;
-				cursor: pointer;
 				position: absolute;
 				display: block;
 			}
 
-			#header nav > .navBtn.active {
+			.navBtn:hover {
 				color: blue;
+				cursor: pointer;
+			}
+
+			.navBtn.active {
+				color: blue;
+				cursor: pointer;
 			}
 
 		#menu {
